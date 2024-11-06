@@ -269,7 +269,8 @@ if x==True:
 
     # Tạo mô hình LSTM
     model = Sequential([
-        LSTM(2048, input_shape=train_data.shape),
+        LSTM(1024, return_sequences=True ,input_shape=train_data.shape),
+        LSTM(1024, return_sequences=False),
         Flatten(),
         Dense(train_data.shape[1], activation='softmax')
     ])
