@@ -9,3 +9,4 @@ streamlit
 vnstock
 scikeras
 beautifulsoup4
+IPython
