@@ -1,1 +1,9 @@
 backtrader
+numpy
+pandas
+matplotlib
+seaborn
+squarify
+tensorflow
+streamlit
+vnstock
