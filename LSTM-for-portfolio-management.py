@@ -3,7 +3,7 @@
 
 # # Import thư viện
 
-
+pip install -r requirements.txt
 
 import warnings
 warnings.filterwarnings('ignore')
