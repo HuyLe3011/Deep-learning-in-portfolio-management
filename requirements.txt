@@ -1,6 +1,6 @@
 backtrader
 numpy
-pandas==2.0.3
+pandas
 matplotlib
 seaborn
 squarify
