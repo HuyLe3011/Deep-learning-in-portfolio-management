@@ -1,12 +1,12 @@
 backtrader
-numpy
-pandas
+numpy=1.24.3
+pandas=2.0.3
 matplotlib
 seaborn
 squarify
 tensorflow
 streamlit
-vnstock
+vnstock=0.2.9.0
 scikeras
 beautifulsoup4
 IPython
