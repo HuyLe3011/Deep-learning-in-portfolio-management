@@ -269,8 +269,8 @@ if x==True:
 
     # Tạo mô hình LSTM
     model = Sequential([
-        LSTM(512, return_sequences=True ,input_shape=train_data.shape),
-        LSTM(256, return_sequences=False),
+        LSTM(1024, return_sequences=True ,input_shape=train_data.shape),
+        LSTM(1024, return_sequences=False),
         Flatten(),
         Dense(train_data.shape[1], activation='softmax')
     ])
@@ -306,7 +306,7 @@ if x==True:
 
 
     # Vẽ biểu đồ khối vuông
-    plt.figure(figsize=(15, 15))
+    plt.figure(figsize=(30, 30))
     squarify.plot(sizes=square_plot_test['Tỷ trọng'], label=square_plot_test['Nhãn'], color=colors, alpha=.8, edgecolor='black', linewidth=2, text_kwargs={'fontsize':10})
     plt.axis('off')
     st.pyplot(plt)
